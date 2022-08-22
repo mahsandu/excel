@@ -1,0 +1,5 @@
+To get the right answer key use the following formula. 
+There are one question and four answers, this formula will compare the result column with options and output the result colum with custom a,b,c,d. 
+
+=IF((N3=S3),"A",IF(O3=S3,"B",IF(P3=S3,"C",IF(Q3=S3,"D",""))))
+
